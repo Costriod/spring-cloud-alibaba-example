@@ -1,4 +1,4 @@
-+HELP.md
+HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
@@ -29,6 +29,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-.mvn
-.DS_Store
