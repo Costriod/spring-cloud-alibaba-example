@@ -4,7 +4,7 @@
 
 - 必须使用@DubboTransported标注接口的方法（如果为了省事也可以直接标注在接口上面）
 
-- 必须保证server端的RestController必须实现接口，而且参数必须和client一致（包括注解也一致），否则dubbo协议会降级成feign的http协议
+- 必须保证server端的RestController必须实现接口，而且参数必须和client一致（包括注解也一致），否则dubbo协议会降级成feign的http协议（也有可能项目启动不了，feign校验RestMethodMetadata过程中发现参数不符合会抛异常）
 
 
 
